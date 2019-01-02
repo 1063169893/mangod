@@ -6,6 +6,9 @@ a {
   text-decoration: none;
   color: #333;
 }
+i {
+  font-style: normal;
+}
 li {
   list-style: none;
 }
@@ -13,7 +16,7 @@ html {
   font-size: 100px;
 }
 body {
-  font-size: 0.12rem;
+  font-size: 0.13rem;
   color: #333;
   -webkit-font-smoothing: antialiased;
   min-width: 10rem;
@@ -88,6 +91,96 @@ body {
   color: #fa2a83;
 }
 .nav-center {
+  margin-top: 0.2rem;
   height: 1rem;
   display: flex;
+}
+.nav-center .pledge a {
+  display: inline-block;
+  width: 101px;
+  height: 100px;
+  background: url(../img/blank.png) no-repeat;
+  text-indent: -99rem;
+  overflow: hidden;
+}
+.nav-center .pledge a:nth-of-type(2) {
+  background-position: -1.02rem 0;
+}
+.nav-center .pledge a:nth-of-type(3) {
+  background-position: -2.04rem 0;
+}
+.nav-center .input {
+  margin-left: 0.3rem;
+  align-self: center;
+  width: 3.87rem;
+  height: 0.32rem;
+  border: 0.01rem solid #fa2a83;
+  border-radius: 0.02rem;
+  background-color: #fff;
+  position: relative;
+}
+.nav-center .input input {
+  padding: 0.02rem 0.12rem;
+  *margin-top: -0.01rem;
+  width: 3.11rem;
+  height: 0.28rem;
+  line-height: 0.30rem;
+  font-size: 0.14rem;
+  color: #333;
+  border: none;
+  border-top-left-radius: 0.02rem;
+  border-bottom-left-radius: 0.02rem;
+  background-color: #fff;
+  outline: none;
+}
+.nav-center .input .seek {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  padding-top: 0.06rem;
+  width: 0.53rem;
+  height: 0.26rem;
+  text-align: center;
+  background-color: #fa2a83;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.nav-center .shopping {
+  margin-left: 0.1rem;
+  align-self: center;
+  position: relative;
+  padding-right: 0.33rem;
+  padding-left: 0.25rem;
+  width: 0.36rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  cursor: pointer;
+  border: 0.01rem solid #ccc;
+  background-color: #f6f7f9;
+  border-radius: 0.02rem;
+  font-size: 0.12rem;
+}
+.nav-center .shopping .bay {
+  background-image: url(//shop.vipstatic.com/img/common/header/sprites-hash-b45bfef8.png?9e581dc2);
+  background-position: -114px -208px;
+  width: 0.12rem;
+  height: 0.17rem;
+  position: absolute;
+  top: 0.08rem;
+  left: 0.08rem;
+  z-index: 1;
+}
+.nav-center .shopping .quantity {
+  position: absolute;
+  top: 0.08rem;
+  right: 0.03rem;
+  z-index: 1;
+  border-radius: 0.08rem;
+  height: 0.16rem;
+  width: 0.24rem;
+  line-height: 0.16rem;
+  color: #fff;
+  text-align: center;
+  background-color: #f00581;
 }
