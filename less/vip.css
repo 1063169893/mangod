@@ -184,3 +184,7 @@ body {
   text-align: center;
   background-color: #f00581;
 }
+.nav-bottom {
+  color: #f00581;
+  display: flex;
+}
